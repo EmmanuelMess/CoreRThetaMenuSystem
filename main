@@ -70,12 +70,14 @@ button R25 C104 F1 T" » " A"menu altMain"
 image R53 C0 L"imgs/hline.img"
 
 ;"Not Actively Printing" Commands
-text V5 R54 C15 F0 T"X "
-value V5 N510 W25
-text V5 T" Y "
-value V5 N511 W25
+text V5 R54 C0 F0 T"X "
+value V5 N510 W20
+text V5 T" B "
+value V5 N513 W20
 text V5 T" Z "
-value V5 N512 D2 W30
+value V5 N512 D2 W20
+text V5 T" C "
+value V5 N514 W20
 
 ;"Actively Printing"
 value V4 R54 C4 W34 H0 N535 D0
