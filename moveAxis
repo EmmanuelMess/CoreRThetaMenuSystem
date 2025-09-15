@@ -2,6 +2,7 @@
 ;
 ; This is a set of menu files for running a 12864 display with a duet3D control board.
 ;
+; Modified by EmmanuelMess - 2025-09-15
 ; Written by Jadon Miller - 2/27/2019
 ; Partially adapted from the work of tinkerlifeprojects on Github.
 ;
@@ -36,15 +37,14 @@ button C88 T"+5" A"G91 G1 X+5 F6000"
 button C103 T"+25" A"G91 G1 X+25 F6000"
 
 
-; --------------- Y Axis ---------------
+; --------------- B Axis ---------------
 image R27 C6 L"imgs/home.img"
-button C16 T" Y " A"G28 Y"
-button C30 T"-25" A"G91 G1 Y-25 F6000"
-button C50 T"-5" A"G91 G1 Y-5 F6000"
-alter C64 N511 D0 W22 H1
-button C88 T"+5" A"G91 G1 Y+5 F6000"
-button C103 T"+25" A"G91 G1 Y+25 F6000"
-
+button C16 T" B " A"G28 B"
+button C30 T"-25" A"G91 G1 B-25 F6000"
+button C50 T"-5" A"G91 G1 B-5 F6000"
+alter C64 N513 D0 W22 H1
+button C88 T"+5" A"G91 G1 B+5 F6000"
+button C103 T"+25" A"G91 G1 B+25 F6000"
 
 ; --------------- Z Axis ---------------
 image R40 C6 L"imgs/home.img"
@@ -55,12 +55,11 @@ alter C64 N512 D0 W22 H1
 button C90 T"+1" A"G91 G1 Z+1 F6000"
 button C103 T"+25" A"G91 G1 Z+25 F6000"
 
-
-; --------------- Axis Positions ---------------
-image R53 C0 L"imgs/hline.img"
-text R54 C15 F0 T"X "
-value N510 W25
-text T" Y "
-value N511 W25
-text T" Z "
-value N512 D2 W30
+; --------------- C Axis ---------------
+image R53 C6 L"imgs/home.img"
+button C16 T" C " A"G28 C"
+button C30 T"-25" A"G91 G1 C-25 F6000"
+button C52 T"-1" A"G91 G1 C-1 F6000"
+alter C64 N514 D0 W22 H1
+button C90 T"+1" A"G91 G1 C+1 F6000"
+button C103 T"+25" A"G91 G1 C+25 F6000"
