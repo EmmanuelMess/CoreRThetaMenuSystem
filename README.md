@@ -1,6 +1,6 @@
 # Core R-Theta Menu System
 
-![Menu While Printing](https://user-images.githubusercontent.com/61329420/76150822-5ff00c80-607c-11ea-942c-f297da326593.jpg)
+![Menu While Printing](images/principal.jpg)
 
 [Here's a video giving a tour of the menu.](https://youtu.be/9U0oqMW-FwY) Courtesy of @jadonmmiller.
 
