@@ -51,7 +51,7 @@ image R40 C6 L"imgs/home.img"
 button C16 T" Z " A"G28 Z"
 button C30 T"-25" A"G91 G1 Z-25 F6000"
 button C52 T"-1" A"G91 G1 Z-1 F6000"
-alter C64 N512 D0 W22 H1
+alter C63 N512 D2 W24 H1
 button C90 T"+1" A"G91 G1 Z+1 F6000"
 button C103 T"+25" A"G91 G1 Z+25 F6000"
 
